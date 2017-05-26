@@ -1,0 +1,86 @@
+actionid: tox
+msg: packaging
+cmdargs: ['/home/luis/gitrepos/chatbase-env/bin/python3', local('/home/luis/gitrepos/chatbase/setup.py'), 'sdist', '--formats=zip', '--dist-dir', local('/home/luis/gitrepos/chatbase/.tox/dist')]
+env: None
+
+running sdist
+running check
+warning: check: missing required meta-data: url
+
+warning: sdist: manifest template 'MANIFEST.in' does not exist (using default file list)
+
+warning: sdist: standard file not found: should have one of README, README.txt
+
+writing manifest file 'MANIFEST'
+creating chatbase-1.0
+creating chatbase-1.0/api
+creating chatbase-1.0/api/batch
+creating chatbase-1.0/api/exceptions
+creating chatbase-1.0/api/facebook
+creating chatbase-1.0/api/generic
+creating chatbase-1.0/api/models
+creating chatbase-1.0/api/models/facebook
+creating chatbase-1.0/api/models/generic
+creating chatbase-1.0/api/taps
+creating chatbase-1.0/config
+creating chatbase-1.0/config/test
+creating chatbase-1.0/docs
+creating chatbase-1.0/test
+making hard links in chatbase-1.0...
+hard linking __init__.py -> chatbase-1.0
+hard linking setup.py -> chatbase-1.0
+hard linking api/__init__.py -> chatbase-1.0/api
+hard linking api/batch/__init__.py -> chatbase-1.0/api/batch
+hard linking api/exceptions/__init__.py -> chatbase-1.0/api/exceptions
+hard linking api/exceptions/common.py -> chatbase-1.0/api/exceptions
+hard linking api/facebook/__init__.py -> chatbase-1.0/api/facebook
+hard linking api/facebook/fb.py -> chatbase-1.0/api/facebook
+hard linking api/generic/__init__.py -> chatbase-1.0/api/generic
+hard linking api/generic/generic.py -> chatbase-1.0/api/generic
+hard linking api/models/__init__.py -> chatbase-1.0/api/models
+hard linking api/models/facebook/__init__.py -> chatbase-1.0/api/models/facebook
+hard linking api/models/facebook/send_agent_message.py -> chatbase-1.0/api/models/facebook
+hard linking api/models/facebook/send_message.py -> chatbase-1.0/api/models/facebook
+hard linking api/models/facebook/update_message.py -> chatbase-1.0/api/models/facebook
+hard linking api/models/generic/__init__.py -> chatbase-1.0/api/models/generic
+hard linking api/models/generic/send_all_messages.py -> chatbase-1.0/api/models/generic
+hard linking api/models/generic/update_messages.py -> chatbase-1.0/api/models/generic
+hard linking api/taps/__init__.py -> chatbase-1.0/api/taps
+hard linking config/__init__.py -> chatbase-1.0/config
+hard linking config/config_handler.py -> chatbase-1.0/config
+hard linking config/test/__init__.py -> chatbase-1.0/config/test
+hard linking config/test/test_config.py -> chatbase-1.0/config/test
+hard linking docs/__init__.py -> chatbase-1.0/docs
+hard linking test/__init__.py -> chatbase-1.0/test
+hard linking test/test_fb.py -> chatbase-1.0/test
+hard linking test/test_generic.py -> chatbase-1.0/test
+creating '.tox/dist/chatbase-1.0.zip' and adding 'chatbase-1.0' to it
+adding 'chatbase-1.0/setup.py'
+adding 'chatbase-1.0/PKG-INFO'
+adding 'chatbase-1.0/__init__.py'
+adding 'chatbase-1.0/docs/__init__.py'
+adding 'chatbase-1.0/config/__init__.py'
+adding 'chatbase-1.0/config/config_handler.py'
+adding 'chatbase-1.0/config/test/test_config.py'
+adding 'chatbase-1.0/config/test/__init__.py'
+adding 'chatbase-1.0/api/__init__.py'
+adding 'chatbase-1.0/api/exceptions/__init__.py'
+adding 'chatbase-1.0/api/exceptions/common.py'
+adding 'chatbase-1.0/api/generic/generic.py'
+adding 'chatbase-1.0/api/generic/__init__.py'
+adding 'chatbase-1.0/api/batch/__init__.py'
+adding 'chatbase-1.0/api/taps/__init__.py'
+adding 'chatbase-1.0/api/facebook/fb.py'
+adding 'chatbase-1.0/api/facebook/__init__.py'
+adding 'chatbase-1.0/api/models/__init__.py'
+adding 'chatbase-1.0/api/models/generic/update_messages.py'
+adding 'chatbase-1.0/api/models/generic/send_all_messages.py'
+adding 'chatbase-1.0/api/models/generic/__init__.py'
+adding 'chatbase-1.0/api/models/facebook/update_message.py'
+adding 'chatbase-1.0/api/models/facebook/send_agent_message.py'
+adding 'chatbase-1.0/api/models/facebook/send_message.py'
+adding 'chatbase-1.0/api/models/facebook/__init__.py'
+adding 'chatbase-1.0/test/test_fb.py'
+adding 'chatbase-1.0/test/test_generic.py'
+adding 'chatbase-1.0/test/__init__.py'
+removing 'chatbase-1.0' (and everything under it)

@@ -150,6 +150,12 @@ update = GenericUpdateMessage(payload, "91204686")
 res = update.send()
 ```
 
+## Config file
+
+The config file is in the `config` folder named `config.conf`
+
+Set the `api_key` in `general` section with your personal chatbase api key.
+
 ### Todos
 
  - Develop batch and taps
